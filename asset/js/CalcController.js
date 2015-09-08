@@ -23,7 +23,7 @@ var CalcController = {
 		};
 		
 		CalcController.showLoading(true);
-		CalcService.getIndex(celsius, callback);
+		CalcService.getTemp(celsius, callback);
 	},
 	
 	showResult: function(result) {
